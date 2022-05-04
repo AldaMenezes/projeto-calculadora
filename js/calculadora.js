@@ -31,7 +31,7 @@ const inserirDisplay = text => {
     display.textContent += text
   }
 
-  display.textContent = display.textContent.substring(0, 17)
+  display.textContent = display.textContent.substring(0, 7)
   numeroAtual = display.textContent
   apagarIgual = true
 }
